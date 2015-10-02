@@ -1,54 +1,55 @@
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
-
-
-h1 {
-/*		font-family: 'Alfa Slab One', cursive;
-		border-style: groove;*/
-/*//*		border-width: medium;
-*//*		border-collapse: collapse;
-*/		font-family: 'Alfa Slab One', cursive;
-		font-size: 2em;
-		color: 1C688A;
-		text-align: center;
-		/*margin-left: auto;
-		margin-right: auto;	*/
-		border-bottom: groove;
-/*		margin-top: 100px;
-*/	    margin-bottom: 100px;
-/*	    margin-right: 260px;
-*/	  /*  margin-left: 350px;*/
-}
-}
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-/*	background-color: #F5F5F5;
-*/    background-color: #fff;
-    color: #4d4d4d;
-    font-family: jaf-facitweb,Helvetica Neue,Arial,sans-serif;
-    font-size: 1.125em;
-    font-weight: 300;
-    line-height: 1.5em;
+/*	background-color: #F5F5F5;*/
+	background-color: #fff;
+	color: #4d4d4d;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 300;
 }
-div	{
-    display: block;
+section {
+	float:left;
+	width:50%;
 }
-#h1 {
-	display: block;
-	font-family: georgia;
+h1 {
+/*	font-family: 'Alfa Slab One', cursive;
+	border-style: groove;
+	border-collapse: collapse;*/
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2em;
+	color: #1C688A;
+	text-align: center;
+	/*margin-left: auto;
+	margin-right: auto;	*/
+	border-bottom: groove;
+	/*margin-top: 100px;*/
+	margin-bottom: 100px;
+/*	margin-right: 260px;
+	margin-left: 350px;*/
+}
+h2 {
+	font-family: georgia, serif;
 	text-transform: capitalize;
 	font-style: oblique;
 }
-#img_agile {
-		width:400px;
-		height: 300px;
-		padding: 2em;
-		margin-left: center;
-    	margin-right: center;
-    /* border: 3px solid #D3D3D3; */
-    	float: left;
-    	padding-right: 3em;; 
-		/*border:3px solid #D3D3D3;*/
-		/*height=500px;"*/
+p {
+	text-align: justify;
+	background-color: #E8E8E8;
+	text-align: auto;
+	margin: auto;
+	padding: 0.5em 3em;
+}
+
+ul{
+	list-style-type: circle;
+	font-size: 1.2em;
+	font-family:'Palatino Linotype', georgia, serif;
+	line-height: 150%;
+}
+.img_agile {
+	width:100%;
+	padding: 2em;
 }
 #slogan {  /* id to put slogan in italic of the page*/
 	/*text-align: justify;*/
@@ -59,22 +60,3 @@ div	{
 	margin-left: 200px;
 	margin-right: 200px;
 }
-#parag1 {
-	text-align: justify;
-    background-color: #E8E8E8;
-    display: inline-block;
-    text-align: auto;
-    width: 300px;
-    margin: auto;
-    padding: 0.5cm 3cm;
-	/*align-self: flex-start;*/
-
-}
-
-ul.services
-	{list-style-type: circle;
-		font-size: 120%;
-		font-family:Palatino Linotype;
-		line-height: 150%;
-
-	}
