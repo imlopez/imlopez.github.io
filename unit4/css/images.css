@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+
+
+h1 {
+/*		font-family: 'Alfa Slab One', cursive;
+		border-style: groove;*/
+/*//*		border-width: medium;
+*//*		border-collapse: collapse;
+*/		font-family: 'Alfa Slab One', cursive;
+		font-size: 2em;
+		color: 1C688A;
+		text-align: center;
+		/*margin-left: auto;
+		margin-right: auto;	*/
+		border-bottom: groove;
+/*		margin-top: 100px;
+*/	    margin-bottom: 100px;
+/*	    margin-right: 260px;
+*/	  /*  margin-left: 350px;*/
+}
+}
+
+body {
+/*	background-color: #F5F5F5;
+*/    background-color: #fff;
+    color: #4d4d4d;
+    font-family: jaf-facitweb,Helvetica Neue,Arial,sans-serif;
+    font-size: 1.125em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+div	{
+    display: block;
+}
+#h1 {
+	display: block;
+	font-family: georgia;
+	text-transform: capitalize;
+	font-style: oblique;
+}
+#img_agile {
+		width:400px;
+		height: 300px;
+		padding: 2em;
+		margin-left: center;
+    	margin-right: center;
+    /* border: 3px solid #D3D3D3; */
+    	float: left;
+    	padding-right: 3em;; 
+		/*border:3px solid #D3D3D3;*/
+		/*height=500px;"*/
+}
+#slogan {  /* id to put slogan in italic of the page*/
+	/*text-align: justify;*/
+	font-style: oblique;
+	font-size: 18px;
+	text-decoration: underline;
+	text-transform: capitalize;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#parag1 {
+	text-align: justify;
+    background-color: #E8E8E8;
+    display: inline-block;
+    text-align: auto;
+    width: 300px;
+    margin: auto;
+    padding: 0.5cm 3cm;
+	/*align-self: flex-start;*/
+
+}
+
+ul.services
+	{list-style-type: circle;
+		font-size: 120%;
+		font-family:Palatino Linotype;
+		line-height: 150%;
+
+	}
