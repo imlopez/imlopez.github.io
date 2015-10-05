@@ -1,9 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
-* { margin:0; padding:0; box-sizing:border-box; }
+@import url(https://fonts.googleapis.com/css?family=Lora);
+* { margin:0; padding:0; box-sizing:border-box; } /* THIS A RESET */
+html{
+	background-color: ##FCFFF5;
+}
 body {
-/*	background-color: #F5F5F5;*/
-	background-color: #fff;
-	color: #4d4d4d;
+/*	background-color: #fff;
+*/	color: #4d4d4d;
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 18px;
 	font-weight: 300;
@@ -13,20 +16,14 @@ section {
 	width:50%;
 }
 h1 {
-/*	font-family: 'Alfa Slab One', cursive;
-	border-style: groove;
-	border-collapse: collapse;*/
+
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 2em;
-	color: #1C688A;
+	color: #3E606F;
 	text-align: center;
-	/*margin-left: auto;
-	margin-right: auto;	*/
 	border-bottom: groove;
-	/*margin-top: 100px;*/
 	margin-bottom: 100px;
-/*	margin-right: 260px;
-	margin-left: 350px;*/
+
 }
 h2 {
 	font-family: georgia, serif;
@@ -35,7 +32,9 @@ h2 {
 }
 p {
 	text-align: justify;
-	background-color: #E8E8E8;
+/*	font-family: 'Lora', georgia, serif; */	
+	font-family:'Palatino Linotype', georgia, serif;
+	font-size: 16px;
 	text-align: auto;
 	margin: auto;
 	padding: 0.5em 3em;
@@ -43,20 +42,22 @@ p {
 
 ul{
 	list-style-type: circle;
-	font-size: 1.2em;
+	font-size: 16px;
 	font-family:'Palatino Linotype', georgia, serif;
 	line-height: 150%;
+	margin-left: 30px;
 }
 .img_agile {
 	width:100%;
 	padding: 2em;
+	height: 510px;
 }
 #slogan {  /* id to put slogan in italic of the page*/
-	/*text-align: justify;*/
 	font-style: oblique;
-	font-size: 18px;
+	font-size: 16px;
 	text-decoration: underline;
 	text-transform: capitalize;
-	margin-left: 200px;
-	margin-right: 200px;
+	padding: 4em 0 0 0;
+	/*margin-left: 200px;
+	margin-right: 200px;*/
 }
