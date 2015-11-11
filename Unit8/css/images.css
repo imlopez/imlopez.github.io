@@ -129,6 +129,18 @@ ul{
 	    margin: 4% 0 0 0;
 	    font-size: 1.4em
  }
+
+#page-wrap { width: 960px; margin: 100px auto; position: relative;  }
+
+#learninz {
+	position: absolute;
+	top: 0; right: 0; width: 320px;
+}
+style, code { font: 10px Monaco, MonoSpace; }
+figure img { width: 300px; display: block; }
+figure:nth-child(4) { clear: both; }
+
+
 @media only screen and (max-width: 480px) {
   h1, nav {
  			display: inline; 
