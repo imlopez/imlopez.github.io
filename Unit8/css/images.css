@@ -25,10 +25,10 @@ h1 {
 	}
 
 .servicesD {
-    overflow: auto;
-    padding: 2em 3em 0em 1em;
-    text-align: justify;
-    line-height: 2em;
+	overflow: auto;
+	padding: 2em 3em 0em 1em;
+	text-align: justify;
+	line-height: 2em;
 }
 .clearfix:after {
   visibility: hidden;
@@ -95,18 +95,19 @@ ul{
 
 .imagesHP {
 	width: 70%;
-    margin: 0 0 1em 5em;
-    border-style: solid;
+	display:block;
+	margin: 0 auto 1em auto;
+	border-style: solid;
 }
  .imageServ {
 	width: 20%;
-    margin: 0 3em 0em 1em;
-    float: left;
+	margin: 0 3em 0em 1em;
+	float: left;
 }
 .column {
 	float: left;
-    width: 45%;
-    margin: 3.4em .2em 0 1.4em;
+	width: 50%;
+	padding:2em;
 }
 
 #navcolor {
